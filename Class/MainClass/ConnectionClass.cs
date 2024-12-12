@@ -21,7 +21,7 @@ namespace iGoogleNetCAPI.Class.MainClass
                 string Start_lng = jsonStr.PLONG; // "100.5405307" '"100.5405307" ' "99.3986862"
                 string Dest_Lat = jsonStr.DEST_LAT; // "18.3170581"
                 string Dest_lng = jsonStr.DEST_LNG; // "99.3986862"
-                string Web_key = "AIzaSyBVsHt_TENoEhrqwYwvrM_tn8izXq5GWdw";
+                string Web_key = "KEYAPI";
                 string param = "origin=" + Start_Lat + "," + Start_lng + "&destination=" + Dest_Lat + "," + Dest_lng;
                 param += "&sensor=false&mode=driving&key=" + Web_key;
                 string Url = "https://maps.googleapis.com/maps/api/directions/json?";
